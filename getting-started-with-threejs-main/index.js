@@ -20,8 +20,9 @@ const controls = new OrbitControls(camera, renderer.domElement);
 
 renderer.render(scene, camera);
 
-const geometry = new THREE.IcosahedronGeometry(1, 3);
-const material = new THREE.MeshBasicMaterial({ color: 0xFFFFFF , flatShading: true });
+const geometry = new THREE.IcosahedronGeometry(1, 3
+);
+const material = new THREE.MeshBasicMaterial({ color: 0xFF0FFF , flatShading: true });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
